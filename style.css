@@ -1,0 +1,18 @@
+h1 {
+    color: pink;
+}
+
+body {
+    font-family: Courier New;
+}
+
+#trial {
+    font-weight: bold;
+    color: fuchsia;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 0 20px 0 20px;
+}

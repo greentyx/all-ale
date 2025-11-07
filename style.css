@@ -3,7 +3,9 @@ h1 {
 }
 
 body {
-    font-family: Courier New;
+    color: white;
+    background-color: rgb(184, 177, 228);
+    font-family: Poppins;
 }
 
 #trial {
@@ -12,7 +14,19 @@ body {
 }
 
 img {
-    height: 250px;
-    width: 250px;
+    height: 170px;
+    width: 170px;
     border-radius: 0 20px 0 20px;
+    border: 3px solid black;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: rgb(0, 80, 252);
+    background-color: white;
+    padding: 20px;
+    font-family: Courier New;
+    border-radius: 10px;
 }

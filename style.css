@@ -1,32 +1,98 @@
 h1 {
-    color: pink;
+    color: #a7c7e7;
 }
 
 body {
-    color: white;
-    background-color: rgb(184, 177, 228);
+    background-color: #f9d1d1;
     font-family: Poppins;
+    color: #fff5e1;
 }
 
-#trial {
-    font-weight: bold;
-    color: fuchsia;
-}
-
-img {
-    height: 170px;
-    width: 170px;
+.img-inicio img {
+    gap: 20px;
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
     border-radius: 0 20px 0 20px;
-    border: 3px solid black;
+    border: 1.5px solid #e7d4e8;
+    object-fit: cover;
+    transition: transform 0.3s;
 }
 
-a {
-    display: block;
+.img-inicio img:hover {
+    transform: scale(1.05);
+} 
+
+.mensagem {
     text-align: center;
-    margin: 10px;
-    color: rgb(0, 80, 252);
-    background-color: white;
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(253, 141, 178);
+}
+
+.frase {
+    font-size: 20px;
+    color: rgb(253, 141, 178);
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.interacao a {
+    color: rgb(253, 141, 178);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.interacao a:hover{
+    text-decoration: underline;
+}
+
+button {
+    background-color: #fd6296;
+    color: #444;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3;
+}
+
+button:hover {
+    background-color: #ff0055;
+    transform: scale(1.05);
+}
+
+.galeria {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.grid-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-items: center;
     padding: 20px;
-    font-family: Courier New;
-    border-radius: 10px;
+}
+
+.grid-fotos img {
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0 20px 0 20px;
+    border: 1.5px solid black;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.grid-fotos img:hover {
+    transform: scale(1.05);
+}
+
+.galeria h2 {
+    font-size: 28px;
+    color: #ec407a;
+    margin-bottom: 20px;
 }
